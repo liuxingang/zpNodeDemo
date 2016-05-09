@@ -1,0 +1,231 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	font-family:"微软雅黑", 'Microsoft Yahei', '幼圆', 'YouYuan SimYou?', SimSun, '宋体', Helvetica, Arial, sans-serif;
+	min-width: 1200px;
+	width:100%;
+	background-color:#f5f5f5; 
+}
+img{
+	vertical-align: middle;
+}
+a{
+	color:#c6c6c6;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.cf:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+/*头部*/
+#s-header{
+	height:auto;
+	position:relative;
+	width:100%;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.27);
+}
+.s-header-info{
+	width:100%;
+	height:40px;
+	background-color:#EAE9E9; 
+}
+.s-header-info-content{
+	position: relative;
+	top: 6px;
+	margin:0 auto;
+	width:998px;
+	height:inherit;
+}
+#nav-color .s-header-info-content{
+	margin:auto;
+
+}
+.s-header-info-content span{
+	display: inline-block;
+	margin:-2px 5px;
+	height:23px;
+	width:24px;
+	text-align: center;
+}
+#nav-color .s-header-info-content .nav-customer{
+	text-align: left;
+	width: 220px;
+	font-size: 12px;
+}
+.s-header-info-content .nav-abouts{
+	text-align: left;
+	width:70px;
+	font-size: 12px;
+}
+.s-header-info-content a{
+	float:right;
+	display: inline-block;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	top:6px;
+	font-size: 12px;
+}
+#nav-color .s-header-info-content .weixinIcon a{
+	background: url("../images/nav-weixin.png") no-repeat center center;
+	padding:11px;
+}
+#nav-color .s-header-info-content .weixinIcon a:hover>img{
+	display: block;
+	z-index: 1001;
+}
+.s-header-info-content .weixinBarUp{
+	position: absolute;
+	top:30px;
+	left:-50px;
+	display: none;
+}
+/*右侧登录菜单*/
+.s-header-info-content .text{
+	height:16px;
+	line-height: 16px;
+	top: 7px;
+}
+#nav-color .nav-fastregister img{
+	margin:0;
+	padding: 0;
+	margin-top: 6px;
+
+}
+#dbzc{
+	color:#fc8026;
+	font-size: 12px;
+}
+#dbdl{
+	color:#003690;
+	font-size: 12px;
+}
+#nav-color .nav-fastregister{
+	width:43px;
+	float: right;
+	margin-right: 22px;
+}
+/*头部菜单*/
+.s-header-menu{
+	height:84px;
+	width:100%;
+	background-color: white;
+}
+.s-header-menu-content{
+	margin: 0 auto;
+	width:998px;
+	height:inherit;
+}
+.s-header-menu .s-header-menu-content .s-icon{
+	margin-top: 12px;
+	width:330px;
+}
+.s-header-menu-content .u-nolist-ul{
+	float: right;
+	height:75px;
+	line-height: 75px;
+
+}
+.u-nolist-ul li{
+	display: inline;
+	font-size: 18px;
+}
+.s-header-menu .u-nolist-ul li a{
+	padding:3px 20px;
+	width:auto;
+	color:#666;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+}
+.s-header-menu .u-nolist-ul li .active{
+	border-bottom: 3px solid #003690;
+}
+.s-header-menu .u-nolist-ul li a:hover{
+	border-bottom: 3px solid #003690;
+}
+/*内容*/
+#main-content{
+	position: relative;
+	width: 100%;
+	height:auto;
+}
+.news-page{
+	width:998px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	padding-top:35px;
+	font-family: '微软雅黑';
+}
+.list-container{
+	min-height: 390px;
+}
+.title{
+	font-size: 24px;
+	color:#324075;
+	font-weight: 500;
+}
+.list-wrapper{
+	background: #fff;
+	margin-top: 30px;
+	padding:20px 35px;
+}
+/*新闻列表*/
+.list-wrapper .news-item{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #324075;
+}
+.list-wrapper .news-item .news-item-img{
+	float: left;
+	width:200px;
+
+}
+.list-wrapper .news-item .news-item-img .news-img{
+	width:100%;
+	height:120px;
+}
+ .news-item-content{
+ 	float: left;
+ 	width:690px;
+ 	margin-left: 30px;
+ }
+ .news-item-content .news-content-title{
+ 	padding:5px 0;
+ 	font-size: 18px;
+ 	color: #262b31;
+ 	font-weight: 800;
+ 	 white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+ .news-item-content .news-content-title a{
+ 	color: #262b31;
+ }
+  .news-item-content .news-content-title a:hover{
+  	text-decoration: underline;
+  	color:#324075;
+  }
+ .news-item-content .news-content-main{
+ 	height:60px;
+ 	overflow: hidden;
+ 	margin:5px 0;
+ 	overflow:hidden;text-overflow:ellipsis;
+ 	
+ }
+ .news-item-content .main-content-time{
+ 	text-align: right;
+ 	padding-right:20px;
+ }
+ 
